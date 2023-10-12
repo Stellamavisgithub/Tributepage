@@ -1,47 +1,23 @@
 *{
-    margin: 0px;
-    padding:  0px;
-    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(216, 175, 175);
+
 }
-body{
-    font-family: Times,serif;
-    color: white;
+.title{
+    font-size: 50px;
+    color: red;
     background-color: black;
 }
-.container{
-    max-width:  90rem;
-    margin: 2rem auto;
-    padding: 0px 2rem;
+.description{
+    font-size: 30px;
+    
 }
-.header > ,title{
-    margin-bottom: 1rem;
+h2{
+    font-size: 30px
 }
-.tribute{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    max-width: 78rem;
-    margin: 0px auto;
-    background:rgb(120, 115, 115);
-    color: black;
-    align-items: center;
-    padding: 0px 0px 0px 1rem;
+p{
+    font-size: 20px ;
 }
-.tribute blockquote{
-    text-align: center;
-    font-size: 3rem;
-}
-.tribute img{max-width: 100%;
-}
-.bio > h2{
-    margin-bottom :1rem;
-    font-size: 3rem;
-    line-height: 1.2;
-}
-.bio > p{
-font-size: 1.2rem;
-line-height: 1.4;
-}
-.bio > hr{
-    margin-top: 2rem;
-}
+
 
